@@ -13,6 +13,11 @@ Opens iClicker and does quizzes for me when I can't.
 ```bash
 #packages:
 import pyautogui
+import pyautogui as pag
+import time
+import keyboard
+import numpy as np
+import win32api, win32con
 from pyclick import HumanClicker
 ```
 
